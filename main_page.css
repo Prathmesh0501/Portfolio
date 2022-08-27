@@ -45,6 +45,7 @@ nav {
 
 .row {
     padding: 20px;
+    display: flex;
 }
 
 nav .Logo {
@@ -110,7 +111,7 @@ h1 {
 }
 
 h4 {
-    color: rgb(155, 153, 151);
+    color: #9b9997;
 }
 
 h3 {
@@ -130,7 +131,7 @@ h3 {
 .description {
     margin-top: 20px;
     font-size: 30px;
-    color: wheat;
+    color: #f5deb3;
 }
 
 .pro {
@@ -156,6 +157,15 @@ h3 {
 
 .project_deatils{
    margin: 20px;
+}
+
+.social_media_icon{
+    padding: 10px;
+    
+}
+svg{
+    margin: 10px;
+    align-content: center;
 }
 
 @media (max-width : 800px) {
